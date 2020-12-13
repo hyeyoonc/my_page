@@ -1,0 +1,40 @@
+header{
+    height: 85px;
+    width:100%;
+}
+header h1{
+    font-family: Palatino, 'Palatino Linotype', serif;
+    color:rgb(46,105,163);
+    font-size:28px;
+    
+}
+.navigation-bar {
+    height: 75px;
+    width:100%;
+    display:flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    flex-direction: row;
+    background-color:rgb(187, 180, 161);
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    margin:0; //쓸데없는 공백 제거
+}
+.nav-item {
+    padding:15px;
+    list-style: none;
+    font-size: 20px;
+}
+.navigation-bar li{
+    list-style: none;
+}
+.nav-item a {
+ 
+    text-decoration: none;
+    color: rgb(17, 12, 12);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    
+}
